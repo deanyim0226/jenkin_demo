@@ -10,4 +10,9 @@ public class Controller {
     public String sayHello(){
         return "API health is good";
     }
+
+    @RequestMapping("api/ping")
+    public String ping(){
+        return "jenkin is working now";
+    }
 }
