@@ -15,4 +15,9 @@ public class Controller {
     public String ping(){
         return "jenkin is working now";
     }
+
+    @RequestMapping("api/testing")
+    public String test(){
+        return "testing is done";
+    }
 }
