@@ -22,7 +22,7 @@ public class Controller {
     }
 
     @RequestMapping("api/update")
-    public String test(){
+    public String update(){
         return "update is done";
     }
 }
