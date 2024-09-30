@@ -20,4 +20,9 @@ public class Controller {
     public String test(){
         return "testing is done";
     }
+
+    @RequestMapping("api/update")
+    public String test(){
+        return "update is done";
+    }
 }
